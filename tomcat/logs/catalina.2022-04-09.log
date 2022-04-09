@@ -1,0 +1,807 @@
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.4.0-107-generic
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/tanmay/.bin/jdk1.8.0_102/jre
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/conf/logging.properties
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:02:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/temp
+Apr 09, 2022 12:02:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Apr 09, 2022 12:02:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:02:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6223 ms
+Apr 09, 2022 12:02:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 09, 2022 12:02:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Apr 09, 2022 12:02:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/docs]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [351] milliseconds.
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/docs] has finished in [1,828] ms
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/examples]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/examples] has finished in [296] ms
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/manager]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/manager] has finished in [74] ms
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/ROOT]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/ROOT] has finished in [31] ms
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/host-manager]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/host-manager] has finished in [36] ms
+Apr 09, 2022 12:02:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:02:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2686 ms
+Apr 09, 2022 12:03:04 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Apr 09, 2022 12:03:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:03:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Apr 09, 2022 12:03:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:03:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.4.0-107-generic
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/tanmay/.bin/jdk1.8.0_102/jre
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/conf/logging.properties
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/temp
+Apr 09, 2022 12:04:30 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Apr 09, 2022 12:04:30 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 620 ms
+Apr 09, 2022 12:04:30 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 09, 2022 12:04:30 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Apr 09, 2022 12:04:30 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/ROOT.war]
+Apr 09, 2022 12:04:32 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Apr 09, 2022 12:04:34 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name [**] used in an <auth-constraint> without being defined in a <security-role>
+Apr 09, 2022 12:04:35 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 09, 2022 12:04:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/Jenkins/apache-tomcat-7.0.104/webapps/ROOT.war] has finished in [6,113] ms
+Apr 09, 2022 12:04:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:04:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6179 ms
+Apr 09, 2022 12:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Apr 09, 2022 12:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Apr 09, 2022 12:04:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Apr 09, 2022 12:04:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Apr 09, 2022 12:04:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Apr 09, 2022 12:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Apr 09, 2022 12:04:42 PM jenkins.slaves.DeprecatedAgentProtocolMonitor initializerCheck
+WARNING: This Jenkins instance uses deprecated Remoting protocols: CLI-connect,CLI2-connect,JNLP-connect,JNLP2-connectIt may impact stability of the instance. If newer protocol versions are supported by all system components (agents, CLI and other clients), it is highly recommended to disable the deprecated protocols.
+Apr 09, 2022 12:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Apr 09, 2022 12:04:42 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Apr 09, 2022 12:04:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@311c37ee: display name [Root WebApplicationContext]; startup date [Sat Apr 09 12:04:43 IST 2022]; root of context hierarchy
+Apr 09, 2022 12:04:43 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@311c37ee]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3855a2
+Apr 09, 2022 12:04:43 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3855a2: defining beans [authenticationManager]; root of factory hierarchy
+Apr 09, 2022 12:04:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1f03fbf0: display name [Root WebApplicationContext]; startup date [Sat Apr 09 12:04:43 IST 2022]; root of context hierarchy
+Apr 09, 2022 12:04:43 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1f03fbf0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@619864
+Apr 09, 2022 12:04:43 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@619864: defining beans [filter,legacy]; root of factory hierarchy
+Apr 09, 2022 12:04:44 PM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+bd8a82711c7d48db81e8d36a1579d55c
+
+This may also be found at: /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/jenkinsHome/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Apr 09, 2022 12:04:58 PM hudson.model.UpdateSite updateData
+SEVERE: ERROR: Signature verification failed in update site &#039;default&#039; <a href='#' class='showDetails'>(show details)</a><pre style='display:none'>java.security.SignatureException: Signature length not correct: got 512 but was expecting 256<br>	at sun.security.rsa.RSASignature.engineVerify(RSASignature.java:189)<br>	at java.security.Signature$Delegate.engineVerify(Signature.java:1219)<br>	at java.security.Signature.verify(Signature.java:652)<br>	at sun.security.x509.X509CertImpl.verify(X509CertImpl.java:444)<br>	at sun.security.provider.certpath.BasicChecker.verifySignature(BasicChecker.java:166)<br>	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:147)<br>	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)<br>Caused: java.security.cert.CertPathValidatorException: signature check failed<br>	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:219)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:140)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)<br>	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)<br>	at org.jvnet.hudson.crypto.CertificateUtil.validatePath(CertificateUtil.java:93)<br>	at jenkins.util.JSONSignatureValidator.verifySignature(JSONSignatureValidator.java:78)<br>	at hudson.model.UpdateSite.verifySignature(UpdateSite.java:254)<br>	at hudson.model.UpdateSite.updateData(UpdateSite.java:219)<br>	at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:190)<br>	at hudson.model.UpdateCenter.updateDefaultSite(UpdateCenter.java:2194)<br>	at jenkins.install.SetupWizard.init(SetupWizard.java:184)<br>	at jenkins.install.InstallState$3.initializeState(InstallState.java:105)<br>	at jenkins.model.Jenkins.setInstallState(Jenkins.java:1037)<br>	at jenkins.install.InstallUtil.proceedToNextStateFrom(InstallUtil.java:97)<br>	at jenkins.model.Jenkins.&lt;init&gt;(Jenkins.java:927)<br>	at hudson.model.Hudson.&lt;init&gt;(Hudson.java:86)<br>	at hudson.model.Hudson.&lt;init&gt;(Hudson.java:82)<br>	at hudson.WebAppMain$3.run(WebAppMain.java:233)<br></pre>
+Apr 09, 2022 12:04:58 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Apr 09, 2022 12:05:14 PM hudson.model.UpdateSite updateData
+SEVERE: ERROR: Signature verification failed in update site &#039;default&#039; <a href='#' class='showDetails'>(show details)</a><pre style='display:none'>java.security.SignatureException: Signature length not correct: got 512 but was expecting 256<br>	at sun.security.rsa.RSASignature.engineVerify(RSASignature.java:189)<br>	at java.security.Signature$Delegate.engineVerify(Signature.java:1219)<br>	at java.security.Signature.verify(Signature.java:652)<br>	at sun.security.x509.X509CertImpl.verify(X509CertImpl.java:444)<br>	at sun.security.provider.certpath.BasicChecker.verifySignature(BasicChecker.java:166)<br>	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:147)<br>	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)<br>Caused: java.security.cert.CertPathValidatorException: signature check failed<br>	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:219)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:140)<br>	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)<br>	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)<br>	at org.jvnet.hudson.crypto.CertificateUtil.validatePath(CertificateUtil.java:93)<br>	at jenkins.util.JSONSignatureValidator.verifySignature(JSONSignatureValidator.java:78)<br>	at hudson.model.UpdateSite.verifySignature(UpdateSite.java:254)<br>	at hudson.model.UpdateSite.updateData(UpdateSite.java:219)<br>	at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:190)<br>	at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1624)<br>	at jenkins.model.DownloadSettings$DailyCheck.execute(DownloadSettings.java:131)<br>	at hudson.model.AsyncPeriodicWork$1.run(AsyncPeriodicWork.java:101)<br>	at java.lang.Thread.run(Thread.java:745)<br></pre>
+Apr 09, 2022 12:05:14 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 32,156 ms
+Apr 09, 2022 12:13:21 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Apr 09, 2022 12:13:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:13:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Apr 09, 2022 12:13:21 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Apr 09, 2022 12:13:21 PM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Apr 09, 2022 12:13:21 PM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Apr 09, 2022 12:13:21 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Apr 09, 2022 12:13:22 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Apr 09, 2022 12:13:22 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Apr 09, 2022 12:13:22 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Apr 09, 2022 12:13:22 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Apr 09, 2022 12:13:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Computer.threadPoolForRemoting [#1]] but has failed to stop it. This is very likely to create a memory leak.
+Apr 09, 2022 12:13:22 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Apr 09, 2022 12:13:22 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2189359c]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Apr 09, 2022 12:13:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 12:13:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.4.0-107-generic
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/tanmay/.bin/jdk1.8.0_102/jre
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/conf/logging.properties
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/temp
+Apr 09, 2022 1:48:03 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Apr 09, 2022 1:48:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 618 ms
+Apr 09, 2022 1:48:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 09, 2022 1:48:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war]
+Apr 09, 2022 1:48:05 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Apr 09, 2022 1:48:07 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name [**] used in an <auth-constraint> without being defined in a <security-role>
+Apr 09, 2022 1:48:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 09, 2022 1:48:08 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.NoHomeDir
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:137)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5128)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5653)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2019)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 09, 2022 1:48:08 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war] has finished in [4,996] ms
+Apr 09, 2022 1:48:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5067 ms
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.4.0-107-generic
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/tanmay/.bin/jdk1.8.0_102/jre
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/conf/logging.properties
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/temp
+Apr 09, 2022 1:48:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Apr 09, 2022 1:48:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:16 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1024)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Apr 09, 2022 1:48:16 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1026)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1024)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 639 ms
+Apr 09, 2022 1:48:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 09, 2022 1:48:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war]
+Apr 09, 2022 1:48:16 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Apr 09, 2022 1:48:18 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name [**] used in an <auth-constraint> without being defined in a <security-role>
+Apr 09, 2022 1:48:18 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 09, 2022 1:48:19 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.NoHomeDir
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:137)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5128)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5653)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2019)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 09, 2022 1:48:19 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war] has finished in [3,108] ms
+Apr 09, 2022 1:48:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3162 ms
+Apr 09, 2022 1:48:19 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+Apr 09, 2022 1:48:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Apr 09, 2022 1:48:19 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@70ac74f6]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Apr 09, 2022 1:48:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.104.0
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.4.0-107-generic
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/tanmay/.bin/jdk1.8.0_102/jre
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/conf/logging.properties
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/temp
+Apr 09, 2022 1:48:36 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+Apr 09, 2022 1:48:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:36 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1024)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Apr 09, 2022 1:48:36 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1026)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1024)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 634 ms
+Apr 09, 2022 1:48:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Apr 09, 2022 1:48:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+Apr 09, 2022 1:48:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war]
+Apr 09, 2022 1:48:36 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Apr 09, 2022 1:48:38 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name [**] used in an <auth-constraint> without being defined in a <security-role>
+Apr 09, 2022 1:48:38 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 09, 2022 1:48:39 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.NoHomeDir
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:137)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5128)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5653)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2019)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 09, 2022 1:48:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/home/tanmay/MyLearning/2.Jenkins_Pipeline/JenkinsDemo/tomcat/webapps/ROOT.war] has finished in [3,062] ms
+Apr 09, 2022 1:48:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3118 ms
+Apr 09, 2022 1:48:39 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+Apr 09, 2022 1:48:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Apr 09, 2022 1:48:39 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@70ac74f6]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Apr 09, 2022 1:48:39 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:48:39 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:50:23 PM org.kohsuke.stapler.jelly.AdjunctTag doTag
+WARNING: AdjunctManager is not installed for this application. Skipping <adjunct> tags
+java.lang.Exception
+	at org.kohsuke.stapler.jelly.AdjunctTag.doTag(AdjunctTag.java:74)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.JellyClassTearOff.serveIndexJelly(JellyClassTearOff.java:112)
+	at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:140)
+	at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:30)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:135)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:138)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:169)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 09, 2022 1:50:23 PM org.kohsuke.stapler.jelly.AdjunctTag doTag
+WARNING: AdjunctManager is not installed for this application. Skipping <adjunct> tags
+java.lang.Exception
+	at org.kohsuke.stapler.jelly.AdjunctTag.doTag(AdjunctTag.java:74)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.JellyClassTearOff.serveIndexJelly(JellyClassTearOff.java:112)
+	at org.kohsuke.stapler.jelly.JellyFacet.handleIndexRequest(JellyFacet.java:140)
+	at org.kohsuke.stapler.IndexViewDispatcher.dispatch(IndexViewDispatcher.java:30)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:135)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:138)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:169)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 09, 2022 1:50:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Apr 09, 2022 1:50:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:50:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Apr 09, 2022 1:50:49 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@69b280f8]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Apr 09, 2022 1:50:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Apr 09, 2022 1:50:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
