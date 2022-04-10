@@ -56,3 +56,4 @@ http://localhost:8080
 * You can see the demo video of Job in action
 ![video](demo/Building C++ App Using Jenkins.mp4)
 
+![presentation-video](https://raw.githubusercontent.com/quest-svit/JenkinsDemo/main/demo/Building%20C%2B%2B%20App%20Using%20Jenkins.mp4)
